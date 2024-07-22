@@ -3,20 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/general.css">
+    <link rel="stylesheet" href="Styles/landingpage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <title>HammerHacks</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js" defer></script>
 </head>
 <body>
-    <h1>HammerHacks</h1>
+    <main>
+        <div class="title-holder">
+            <h1 class="title">HammerHacks</h1>
+            <h2 class="title-description">Hamilton&#39;s First Ever Hackathon!</h2>
+            <h3 class="date">Coming November 2nd</h3>
+        </div>
+        
+        <p>we're not currently accepting signups yet, subscribe to find out when we do!</p>
+        <form action="/success" name="newsletter" netlify>
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+        </form>
 
-    <p>we're not currently accepting signups yet, subscribe to find out when we do!</p>
-    <form action="/success" name="newsletter" netlify>
-        <input type="email" name="email" id="email" placeholder="Enter your email">
-        <button type="submit">Subscribe</button>
-    </form>
-
-    <h2>have questions?</h2>
-    <p>reach out to us at <a href="mailto:info@hammerhacks.ca">info&commat;hammerhacks.ca</a></p>
+        <h2>have questions?</h2>
+        <p>reach out to us at <a href="mailto:info@hammerhacks.ca">info&commat;hammerhacks.ca</a></p>
+    </main>
 </body>
 </html>
