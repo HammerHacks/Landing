@@ -3,25 +3,27 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
 }
 
 body {
-    background-color: #000212;
+    background-color: #0c0d17;
     color: white;
     font-family: "Poppins";
-}
-
-h1 {
-    text-align: center;
+    padding-bottom: 6rem;
 }
 
 a {
     color: #3784ff;
 }
 
+/* all divs in main except first */
+main > div:not(:first-child) {
+    text-align: center;
+    margin-top: 3rem;
+}
+
 .title-holder {
-    height: 500px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,4 +38,43 @@ a {
 
 .title-description, .date {
     font-size: 30px;
+}
+
+.accordion {
+    display: flex;
+    justify-content: center;
+}
+
+.accordion-item {
+    padding: 18px;
+    width: 25%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.accordion-button {
+    cursor: pointer;
+    padding: 1rem;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.accordion-button:hover {
+    background-color: #bbb;
+}
+
+.accordion-content {
+    padding: 0 1.5rem;
+    visibility: hidden;
+}
+
+.accordion-content.active {
+    visibility: visible;
 }
