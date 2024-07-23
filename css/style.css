@@ -2,8 +2,38 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000212;
+    color: white;
+    font-family: "Poppins";
 }
 
 h1 {
     text-align: center;
+}
+
+a {
+    color: #3784ff;
+}
+
+.title-holder {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #8b5aff;
+}
+
+.title {
+    font-size: 90px;
+    font-family: "Anton SC";
+}
+
+.title-description, .date {
+    font-size: 30px;
 }
