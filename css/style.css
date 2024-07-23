@@ -23,6 +23,12 @@ input {
     font-family: 'Poppins';
 }
 
+@media (max-width: 768px) {
+    input {
+        width: 50%;
+    }
+}
+
 button[type="submit"] {
     background-color: #8b5aff;
     color: white;
@@ -40,35 +46,46 @@ main>div:not(:first-child) {
 }
 
 .title-holder {
-    height: 400px;
+    height: 25rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #8b5aff;
+    text-align: center;
 }
 
 .title {
-    font-size: 90px;
+    font-size: 6rem;
     font-family: "Anton SC";
 }
 
 .title-description, .date {
-    font-size: 30px;
+    font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 4rem;
+    }
+
+    .title-description, .date {
+        font-size: 1.5rem;
+    }
 }
 
 .accordion {
     display: flex;
     justify-content: center;
+    margin-bottom: 2rem;
 }
 
 .accordion-item {
-    padding: 18px;
+    padding: 1rem;
     width: 25%;
     border: none;
     text-align: left;
     outline: none;
-    font-size: 15px;
     transition: 0.4s;
 }
 
@@ -89,7 +106,7 @@ main>div:not(:first-child) {
     border: none;
     text-align: left;
     outline: none;
-    font-size: 15px;
+    font-size: 1rem;
     transition: 0.4s;
     background-color: #8b5aff;
     color: white;
