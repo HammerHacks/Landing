@@ -72,6 +72,12 @@ main>div:not(:first-child) {
     margin-bottom: 10px;
 }
 
+.date {
+    color: #d2bfff;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
 @media (max-width: 768px) {
     .title {
         font-size: 3.75rem;
@@ -92,23 +98,24 @@ main>div:not(:first-child) {
 }
 
 .welcome-container {
-    display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
-    margin-top: 10000px;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 100px;
+    
 }
 
-.date {
-    color: #d2bfff;
-    font-size: 1.2rem;
-    margin-bottom: 5px;
+@media (max-width: 768px) {
+    .welcome-text {
+        width: 50%;
+    }
 }
 
 .welcome-text {
-    width: 970px;
+    width: 980px;
     text-align: left;
+    margin-left: 10px;
 }
 
 .faq {
