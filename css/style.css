@@ -131,11 +131,6 @@ main>div:not(:first-child) {
     transition: 0.4s;
 }
 
-.accordion-item:hover {
-    transition: transform 0.25s;
-    transform: scale(1.02);
-}
-
 @media (max-width: 768px) {
     .faq {
         flex-direction: column;
@@ -157,11 +152,13 @@ main>div:not(:first-child) {
     transition: 0.4s;
     font-family: "Poppins";
     color: white;
+    cursor: pointer;
 }
 
 .accordion-content {
     transition: 0.25s;
     max-height: 0;
+    padding: 0 1rem;
     overflow: hidden;
     width: 100%;
 }
