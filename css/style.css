@@ -121,7 +121,7 @@ main>div:not(:first-child) {
 
 .accordion-item {
     padding: 1rem;
-    width: 25%;
+    width: 40%;
     border: none;
     text-align: left;
     outline: none;
@@ -145,22 +145,23 @@ main>div:not(:first-child) {
     border: none;
     text-align: left;
     outline: none;
-    font-size: 1rem;
+    font-size: 1.75rem;
+    font-weight: bold;
     transition: 0.4s;
     font-family: "Poppins";
-    border-radius: 15px;
-    border: #0d001f solid 5px;
-    background-color: #8b5aff;
+    background-color: #714ace;
     color: white;
 }
 
 .accordion-button:hover {
-    background-color: #4913c8;
+    transition: transform 0.25s;
+    transform: scale(1.02);
 }
 
 .accordion-content {
-    padding: 0 0.8rem;
-    transition: 0.4s;
+    background-color: #714ace;
+    padding: 0 1rem;
+    transition: 0.25s;
     max-height: 0;
     overflow: hidden;
     width: 100%;
@@ -168,6 +169,7 @@ main>div:not(:first-child) {
 
 .accordion-content.active {
     max-height: 500px;
+    padding: 1rem;
 }
 
 .sponsor-holder {
