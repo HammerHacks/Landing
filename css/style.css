@@ -198,7 +198,7 @@ main>div:not(:first-child) {
     white-space: nowrap;
     border: none;
     cursor: pointer;
-    border-radius: 30px;
+    border-radius: 15px;
     margin-bottom: 50px;
     line-height: 25px;
 }
