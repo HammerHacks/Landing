@@ -76,59 +76,49 @@ main>div:not(:first-child) {
     }
 }
 
-.faq {
-    display: flex;
+.faq-title {
+    margin-bottom: 50px;
+}
+
+.faq-content {
+    display: grid;
+    grid-template-columns: 410px 410px;
     justify-content: center;
-    margin-bottom: 2rem;
+    row-gap: 20px;
+    column-gap: 20px;
     flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 
-.accordion-item {
-    padding: 1rem;
-    width: 25%;
-    border: none;
+.container {
+    background-color: #714ace;
     text-align: left;
-    outline: none;
-    transition: 0.4s;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 20px;
+    transition: transform 0.25s;
 }
 
-@media (max-width: 768px) {
-    .faq {
-        flex-direction: column;
+.container:hover {
+    transform: scale(1.05);
+}
+
+.container-title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.container-info {
+}
+
+@media (max-width: 870px) {
+    .faq-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 410px);
+        justify-content: center;
     }
 
-    .accordion-item {
-        width: 100%;
-    }
-}
-
-.accordion-button {
-    cursor: pointer;
-    padding: 1rem;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 1rem;
-    transition: 0.4s;
-    background-color: #8b5aff;
-    color: white;
-}
-
-.accordion-button:hover {
-    background-color: #4913c8;
-}
-
-.accordion-content {
-    padding: 0 0.8rem;
-    transition: 0.4s;
-    max-height: 0;
-    overflow: hidden;
-    width: 100%;
-}
-
-.accordion-content.active {
-    max-height: 500px;
 }
 
 .credits {
