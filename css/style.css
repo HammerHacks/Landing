@@ -11,7 +11,7 @@ body {
     background-color: #0c0d17;
     color: white;
     font-family: "Poppins";
-    padding-bottom: 6rem;
+    text-align: center;
 }
 
 a {
@@ -129,4 +129,9 @@ main>div:not(:first-child) {
 
 .accordion-content.active {
     max-height: 500px;
+}
+
+.credits {
+    font-size: .75rem;
+    margin-top: 5rem;
 }
