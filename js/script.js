@@ -1,8 +1,8 @@
-const accordionBtns = document.querySelectorAll('.accordion-button');
+const accordionItems = document.querySelectorAll('.accordion-item');
 
-for (const btn of accordionBtns) {
-    btn.addEventListener('click', () => {
-        const accordionContent = btn.nextElementSibling;
+for (const item of accordionItems) {
+    item.addEventListener('click', () => {
+        const accordionContent = item.querySelector('.accordion-content');
         accordionContent.classList.toggle('active');
     });
 }

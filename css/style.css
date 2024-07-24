@@ -115,17 +115,25 @@ main>div:not(:first-child) {
 .faq {
     display: flex;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
     flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .accordion-item {
+    background-color: #714ace;
+    cursor: pointer;
     padding: 1rem;
     width: 40%;
     border: none;
     text-align: left;
     outline: none;
     transition: 0.4s;
+}
+
+.accordion-item:hover {
+    transition: transform 0.25s;
+    transform: scale(1.02);
 }
 
 @media (max-width: 768px) {
@@ -139,8 +147,7 @@ main>div:not(:first-child) {
 }
 
 .accordion-button {
-    cursor: pointer;
-    padding: 1rem;
+    background-color: transparent;
     width: 100%;
     border: none;
     text-align: left;
@@ -149,18 +156,10 @@ main>div:not(:first-child) {
     font-weight: bold;
     transition: 0.4s;
     font-family: "Poppins";
-    background-color: #714ace;
     color: white;
 }
 
-.accordion-button:hover {
-    transition: transform 0.25s;
-    transform: scale(1.02);
-}
-
 .accordion-content {
-    background-color: #714ace;
-    padding: 0 1rem;
     transition: 0.25s;
     max-height: 0;
     overflow: hidden;
