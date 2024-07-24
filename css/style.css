@@ -106,14 +106,8 @@ main>div:not(:first-child) {
     
 }
 
-@media (max-width: 768px) {
-    .welcome-text {
-        width: 50%;
-    }
-}
-
 .welcome-text {
-    width: 980px;
+    width: 50%;
     text-align: left;
     margin-left: 10px;
 }
