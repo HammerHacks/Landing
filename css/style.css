@@ -19,10 +19,12 @@ a {
 }
 
 input {
-    width: 25%;
+    width: 85%;
     padding: 0.5rem;
     border: none;
     font-family: 'Poppins';
+    margin-right: 10px;
+    border-radius: 8px;
 }
 
 @media (max-width: 768px) {
@@ -32,13 +34,15 @@ input {
 }
 
 button[type="submit"] {
-    background-color: #8b5aff;
+    background-color: #b79cf7;
     color: white;
     font-family: 'Poppins';
     font-weight: 500;
     padding: 0.5rem;
+    white-space: nowrap;
     border: none;
     cursor: pointer;
+    border-radius: 8px;
 }
 
 /* all divs in main except first */
@@ -48,7 +52,7 @@ main>div:not(:first-child) {
 }
 
 .title-holder {
-    height: 25rem;
+    height: 60rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,10 +64,12 @@ main>div:not(:first-child) {
 .title {
     font-size: 6rem;
     font-family: "Anton SC";
+    line-height: 130px;
 }
 
-.title-description, .date {
+.title-description{
     font-size: 2rem;
+    margin-bottom: 10px;
 }
 
 @media (max-width: 768px) {
@@ -74,6 +80,35 @@ main>div:not(:first-child) {
     .title-description, .date {
         font-size: 1.5rem;
     }
+}
+
+.newsletter-folder {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-top: 6px;
+    padding: 2px;
+    border-radius: 8px;
+}
+
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10000px;
+    margin-bottom: 100px;
+}
+
+.date {
+    color: #d2bfff;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.welcome-text {
+    width: 970px;
+    text-align: left;
 }
 
 .faq {
@@ -134,7 +169,41 @@ main>div:not(:first-child) {
     max-height: 500px;
 }
 
+.sponsor-holder {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.sponsor-email {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.sponsor-text {
+    margin-bottom: 23px;
+    font-size: 20px;
+}
+
+.sponsor-text2 {
+    font-size: 20px;
+}
+
+.sponsor-button {
+    background-color: #8b5aff;
+    font-family: 'Poppins';
+    font-weight: 500;
+    padding: 0.5rem;
+    white-space: nowrap;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
 .credits {
     font-size: .75rem;
     margin-top: 5rem;
+    margin-bottom: 10px;
 }
