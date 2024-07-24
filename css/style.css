@@ -76,10 +76,11 @@ main>div:not(:first-child) {
     }
 }
 
-.accordion {
+.faq {
     display: flex;
     justify-content: center;
     margin-bottom: 2rem;
+    flex-wrap: wrap;
 }
 
 .accordion-item {
@@ -92,7 +93,7 @@ main>div:not(:first-child) {
 }
 
 @media (max-width: 768px) {
-    .accordion {
+    .faq {
         flex-direction: column;
     }
 
@@ -119,7 +120,7 @@ main>div:not(:first-child) {
 }
 
 .accordion-content {
-    padding: 0 1.5rem;
+    padding: 0 0.8rem;
     transition: 0.4s;
     max-height: 0;
     overflow: hidden;
