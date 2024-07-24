@@ -52,7 +52,7 @@ main>div:not(:first-child) {
 }
 
 .title-holder {
-    height: 60rem;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
