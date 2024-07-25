@@ -113,7 +113,6 @@ main>div:not(:first-child) {
 .faq {
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
     flex-wrap: wrap;
 }
 
