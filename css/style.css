@@ -115,11 +115,9 @@ main>div:not(:first-child) {
     justify-content: center;
     margin-top: 2rem;
     flex-wrap: wrap;
-    gap: 2rem;
 }
 
 .accordion-item {
-    background-color: #714ace;
     cursor: pointer;
     padding: 1rem;
     width: 40%;
@@ -140,7 +138,8 @@ main>div:not(:first-child) {
 }
 
 .accordion-button {
-    background-color: transparent;
+    background-color: #714ace;
+    padding: 1rem;
     width: 100%;
     border: none;
     text-align: left;
@@ -154,6 +153,7 @@ main>div:not(:first-child) {
 }
 
 .accordion-content {
+    background-color: #714ace;
     transition: 0.25s;
     max-height: 0;
     padding: 0 1rem;
@@ -163,7 +163,7 @@ main>div:not(:first-child) {
 
 .accordion-item.active .accordion-content {
     max-height: 500px;
-    padding: 1rem;
+    padding-bottom: 1rem;
 }
 
 .sponsor-holder {
