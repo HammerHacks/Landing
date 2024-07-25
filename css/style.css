@@ -226,6 +226,10 @@ main>div:not(:first-child) {
     .sponsor-holder * {
         margin: 0 1rem;
     }
+
+    .sponsor-button {
+        margin-top: 1.5rem;
+    }
 }
 
 .credits {
