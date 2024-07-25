@@ -45,6 +45,13 @@ button[type="submit"] {
     margin-left: auto;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /* all divs in main except first */
 main>div:not(:first-child) {
     text-align: center;
@@ -53,6 +60,7 @@ main>div:not(:first-child) {
 
 .title-holder {
     height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,12 +100,18 @@ main>div:not(:first-child) {
     display: flex;
     flex-direction: column;
     margin-bottom: 100px;
+    width: 50%;
+}
+
+.welcome-container h1 {
+    text-align: left;
+    width: 100%;
 }
 
 .welcome-text {
-    width: 50%;
     text-align: left;
-    margin-left: 10px;
+    width: 100%;
+    font-size: 1.25rem;
 }
 
 .faq {
