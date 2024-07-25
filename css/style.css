@@ -81,7 +81,7 @@ main>div:not(:first-child) {
 
 .date {
     color: #d2bfff;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-bottom: 5px;
 }
 
@@ -121,6 +121,10 @@ main>div:not(:first-child) {
 }
 
 @media (max-width: 768px) {
+    .welcome-container {
+        width: 80%;
+    }
+
     .title {
         font-size: 3.75rem;
     }
@@ -129,8 +133,10 @@ main>div:not(:first-child) {
         font-size: 1.5rem;
     }
 
-    .welcome-text {
-        width: 85%;
+    .title-holder p,
+    .title-holder h1
+    .title-holder h2 {
+        margin: 0 1rem;
     }
 }
 
@@ -185,7 +191,7 @@ main>div:not(:first-child) {
 
 .sponsor-holder {
     margin-top: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 4rem;
 }
 
 .sponsor-email {
@@ -216,10 +222,18 @@ main>div:not(:first-child) {
     line-height: 25px;
 }
 
+@media (max-width: 768px) {
+    .sponsor-holder * {
+        margin: 0 1rem;
+    }
+}
+
 .credits {
     font-size: .75rem;
     margin-top: 5rem;
     margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .countdown-timer {
