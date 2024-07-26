@@ -83,7 +83,8 @@ main>div:not(:first-child) {
     font-family: "Poppins";
     font-weight: bold;
     font-size: 45px;
-    margin-bottom: 100px;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
 }
 
 .date {
