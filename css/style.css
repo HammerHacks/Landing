@@ -19,17 +19,10 @@ a {
 }
 
 input {
-    width: 85%;
     padding: 0.5rem;
     border: none;
     font-family: 'Poppins';
     border-radius: 8px;
-}
-
-@media (max-width: 768px) {
-    input {
-        width: 50%;
-    }
 }
 
 button[type="submit"] {
