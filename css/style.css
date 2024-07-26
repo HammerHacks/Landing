@@ -194,12 +194,6 @@ main>div:not(:first-child) {
     margin-bottom: 4rem;
 }
 
-.sponsor-email {
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
-}
-
 .sponsor-text {
     margin-bottom: 23px;
     font-size: 20px;
@@ -211,8 +205,10 @@ main>div:not(:first-child) {
 
 .sponsor-button {
     background-color: #8b5aff;
+    color: white;
     font-family: "Poppins";
     font-weight: 500;
+    font-size: 15px;
     padding: 0.5rem;
     white-space: nowrap;
     border: none;
