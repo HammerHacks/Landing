@@ -7,7 +7,8 @@ for (const item of accordionItems) {
 const targetDate = new Date("November 2, 2024").getTime();
 
 const countdown = document.querySelector('.countdown-timer');
-const x = setInterval(() => {
+let x;
+const updateCountdown = () => {
   const todaysDate = Date.now();
 
   const distance = targetDate - todaysDate;
@@ -23,4 +24,7 @@ const x = setInterval(() => {
     clearInterval(x);
     countdown.innerText = "";
   }
-}, 1000);
+};
+
+updateCountdown();
+x = setInterval(updateCountdown, 1000);
