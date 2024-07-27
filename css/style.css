@@ -58,7 +58,7 @@ main>div:not(:first-child) {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #392CB6;
+    background-color: #1f099c;
     text-align: center;
 }
 
@@ -168,7 +168,7 @@ main>div:not(:first-child) {
 }
 
 .accordion-button {
-    background-color: #392CB6;
+    background-color: #1f099c;
     padding: 1rem;
     width: 100%;
     border: none;
@@ -183,7 +183,7 @@ main>div:not(:first-child) {
 }
 
 .accordion-content {
-    background-color: #392CB6;
+    background-color: #1f099c;
     transition: 0.25s;
     max-height: 0;
     padding: 0 1rem;
@@ -212,7 +212,7 @@ main>div:not(:first-child) {
 }
 
 .sponsor-button {
-    background-color: #392CB6;
+    background-color: #1f099c;
     color: white;
     font-family: "Poppins";
     font-weight: 500;
