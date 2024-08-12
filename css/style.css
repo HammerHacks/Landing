@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
 * {
     -webkit-box-sizing: border-box;
@@ -62,13 +62,12 @@ main>div:not(:first-child) {
     text-align: center;
 }
 
-.title {
-    font-size: 6rem;
-    font-family: "Anton SC";
-    line-height: 130px;
+.title-holder img {
+    max-height: 55vh;
+    max-width: 90vw;
 }
 
-.title-description{
+.title-description {
     font-size: 2rem;
 }
 
@@ -125,10 +124,6 @@ main>div:not(:first-child) {
 @media (max-width: 768px) {
     .welcome-container {
         width: 80%;
-    }
-
-    .title {
-        font-size: 3.75rem;
     }
 
     .title-description, .date {
