@@ -63,7 +63,7 @@ main>div:not(:first-child) {
 }
 
 .title-holder img {
-    max-height: 50vh;
+    max-height: 45vh;
     max-width: 90vw;
     margin-bottom: 1rem;
 }
@@ -125,7 +125,7 @@ main>div:not(:first-child) {
 
 .partners img {
     max-width: 40vw;
-    margin: 1rem;
+    margin: 2vw;
     object-fit: contain;
 }
 
@@ -133,36 +133,6 @@ main>div:not(:first-child) {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-@media (max-width: 768px) {
-    .partners {
-        flex-direction: column;
-    }
-
-    .partners img {
-        max-width: 80vw; 
-        margin-top: 3rem;
-    }
-
-    .welcome-container {
-        width: 80%;
-    }
-
-    .title-description, .date {
-        font-size: 1.5rem;
-    }
-
-    .title-holder p,
-    .title-holder h1
-    .title-holder h2 {
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-
-    .countdown-timer {
-        width: 95%;
-    }
 }
 
 .accordion-item {
@@ -173,16 +143,6 @@ main>div:not(:first-child) {
     text-align: left;
     outline: none;
     transition: 0.4s;
-}
-
-@media (max-width: 768px) {
-    .faq {
-        flex-direction: column;
-    }
-
-    .accordion-item {
-        width: 100%;
-    }
 }
 
 .accordion-button {
@@ -244,17 +204,6 @@ main>div:not(:first-child) {
     line-height: 25px;
 }
 
-@media (max-width: 768px) {
-    .sponsor-holder * {
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-
-    .sponsor-button {
-        margin-top: 1.5rem;
-    }
-}
-
 .credits {
     font-size: .75rem;
     margin-top: 5rem;
@@ -265,4 +214,55 @@ main>div:not(:first-child) {
 
 .pink {
     color: #ec4899;
+}
+
+@media (max-width: 768px) {
+    .partners {
+        flex-direction: column;
+    }
+
+    .partners img {
+        max-width: 80vw; 
+        margin-top: 3rem;
+    }
+
+    .welcome-container {
+        width: 80%;
+    }
+
+    .title-description, .date {
+        font-size: 1.5rem;
+    }
+
+    .title-holder p,
+    .title-holder h1
+    .title-holder h2 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .title-holder img {
+        max-height: 30vh;
+    }
+
+    .countdown-timer {
+        width: 95%;
+    }
+
+    .faq {
+        flex-direction: column;
+    }
+
+    .accordion-item {
+        width: 100%;
+    }
+
+    .sponsor-holder * {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .sponsor-button {
+        margin-top: 1.5rem;
+    }
 }
