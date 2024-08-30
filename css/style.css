@@ -5,6 +5,7 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     margin: 0;
+    scroll-margin-top: 55px;
 }
 
 body {
@@ -18,7 +19,7 @@ a {
     color: #eebb3b;
 }
 
-.topnav {
+header {
     position: fixed;
     color: white;
     display: flex;
@@ -32,29 +33,26 @@ a {
     background-color: #1f099c;
 }
 
-.left-sections{
+.logo-section {
     position: absolute;
     left: 100px;
     height: inherit;
     align-items: center;
 }
 
-.left-sections img {
+.logo-section img {
     height: 45px;
     padding-top: 5px;
 }
 
-.right-sections{
+nav {
     display: flex;
     font-size: 20px;
 }
 
-.right-sections a {
+nav a {
     text-decoration: none;
     color: white;
-}
-
-.about-section, .sponsors-section, .partners-section, .the-team-section, .faq-section, .contact-section {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
@@ -63,7 +61,7 @@ a {
     border-radius: 20px;
 }
 
-.about-section:hover, .sponsors-section:hover, .partners-section:hover, .the-team-section:hover, .faq-section:hover, .contact-section:hover {
+nav a:hover {
     background-color: #170772;
     cursor: pointer;
 }
@@ -71,7 +69,7 @@ a {
 input {
     padding: 0.5rem;
     border: none;
-    font-family: 'Poppins';
+    font-family: Poppins;
     border-radius: 8px;
 }
 
@@ -93,12 +91,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-/* all divs in main except first */
-main>div:not(:first-child) {
-    text-align: center;
-    margin-top: 3rem;
 }
 
 .title-holder {
@@ -149,8 +141,9 @@ main>div:not(:first-child) {
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-bottom: 100px;
+    margin-bottom: 5rem;
     width: 50%;
+    margin-top: 2rem;
 }
 
 .welcome-container h1 {
@@ -165,7 +158,7 @@ main>div:not(:first-child) {
     font-size: 1.25rem;
 }
 
-.partners {
+.partners-logos {
     margin-top: 1rem;
     display: flex;
     justify-content: center;
@@ -173,13 +166,13 @@ main>div:not(:first-child) {
     margin-bottom: 7rem;
 }
 
-.partners img {
+.partners-logos img {
     max-width: 40vw;
     margin: 2vw;
     object-fit: contain;
 }
 
-.faq {
+.faq-boxes {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;

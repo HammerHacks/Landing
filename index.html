@@ -13,32 +13,19 @@
     <title>HammerHacks - Hamilton's First High School Hackathon</title>
 </head>
 <body>
-    <header class="topnav">
-        <div class="left-sections">
-            <div class="logo-section">
-                <img src="assets/logo.webp" alt="HammerHacks Logo">
-            </div>
+    <header>
+        <div class="logo-section">
+            <a href="#"><img src="assets/logo.webp" alt="HammerHacks Logo"></a>
         </div>
-        <div class="right-sections">
-            <a href="#About">
-                <div class="about-section">About</div>
-            </a>
-            <a href="#Sponsors">
-                <div class="sponsors-section">Sponsors</div>
-            </a>
-            <a href="#Partners">
-                <div class="partners-section">Partners</div>
-            </a>
-            <a href="#TheTeam">
-                <div class="the-team-section">The Team</div>
-            </a>
-            <a href="#FAQ">
-                <div class="faq-section">FAQ</div>
-            </a>
-            <a href="#Contact">
-                <div class="contact-section">Contact</div>
-            </a>
-        </div>
+
+        <nav>
+            <a data-scrollto="welcome-container">About</a>
+            <a data-scrollto="sponsor-holder">Sponsors</a>
+            <a data-scrollto="partners">Partners</a>
+            <a data-scrollto="team">The Team</a>
+            <a data-scrollto="faq">FAQ</a>
+            <a data-scrollto="contact">Contact</a>
+        </nav>
     </header>  
     <main>
         <div class="title-holder">
@@ -53,7 +40,6 @@
             </form>
         </div>
 
-        <div id="About" ></div>
         <div class="welcome-container">
             <h1>Welcome to HammerHacks where technology is the new steel!</h1>
             <p class="welcome-text">
@@ -61,13 +47,14 @@
                 <br><br>Learn, collaborate, and innovate as we add glamour to the Hammer!
             </p>
         </div>
-        <div id="Partners"></div>
 
         <div>
-            <h1>Partners</h1>
             <div class="partners">
-                <a href="https://hackclub.com/"><img src="https://assets.hackclub.com/flag-standalone.svg" alt="Hack Club"></a>
-                <a href="https://www.eng.mcmaster.ca/community"><img src="assets/maceng.png" alt="McMaster Engineering"></a>
+                <h1>Partners</h1>
+                <div class="partners-logos">
+                    <a href="https://hackclub.com/"><img src="https://assets.hackclub.com/flag-standalone.svg" alt="Hack Club"></a>
+                    <a href="https://www.eng.mcmaster.ca/community"><img src="assets/maceng.png" alt="McMaster Engineering"></a>
+                </div>
             </div>
 
             <div class="sponsor-holder">
@@ -77,8 +64,9 @@
                 <a href="mailto:sponsor@hammerhacks.ca"><button class="sponsor-button">Become a Sponsor</button></a>
             </div>
 
-            <h1>FAQ</h1>
             <div class="faq">
+                <h1>FAQ</h1>
+                <div class="faq-boxes">
                 <div class="accordion-item">
                     <button class="accordion-button">What is a hackathon?</button>
                     <div class="accordion-content">
@@ -151,6 +139,7 @@
                         <p>You will have the opportunity to learn from our coding workshops, work on exciting projects, meet fellow techies, engage in fun activities, and more.</p>
                     </div>
                 </div>
+            </div>
         </div>
 
         <div>
