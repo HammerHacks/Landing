@@ -204,6 +204,10 @@ main>div:not(:first-child) {
     line-height: 25px;
 }
 
+.donate {
+    padding-top: 100px;
+}
+
 .credits {
     font-size: .75rem;
     margin-top: 5rem;
