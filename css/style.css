@@ -269,6 +269,15 @@ main>div:not(:first-child) {
     font-weight: 800;
 }
 
+.team .position {
+    font-weight: 500;
+}
+
+.team .school {
+    font-size: 0.8rem;
+    line-height: 1.25rem;
+}
+
 @media (min-width: 640px) {
     .team ul {
         grid-template-columns: repeat(2, minmax(0, 1fr));
