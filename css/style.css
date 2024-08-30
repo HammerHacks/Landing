@@ -258,7 +258,7 @@ main>div:not(:first-child) {
 
 .team img {
     aspect-ratio: 1;
-    width: 5rem;
+    width: 7.5rem;
     border-radius: 9999px;
     object-fit: cover;
 }
