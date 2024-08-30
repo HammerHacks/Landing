@@ -18,56 +18,6 @@ a {
     color: #eebb3b;
 }
 
-.topnav {
-    position: fixed;
-    color: white;
-    display: flex;
-    top: 0;
-    left: 0;
-    right: 0;
-    align-items: center;
-    justify-content: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    background-color: #1f099c;
-}
-
-.left-sections{
-    position: absolute;
-    left: 100px;
-    height: inherit;
-    align-items: center;
-}
-
-.left-sections img {
-    height: 45px;
-    padding-top: 5px;
-}
-
-.right-sections{
-    display: flex;
-    font-size: 20px;
-}
-
-.right-sections a {
-    text-decoration: none;
-    color: white;
-}
-
-.about-section, .sponsors-section, .partners-section, .the-team-section, .faq-section, .contact-section {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    background-color: #1f099c;
-    border-radius: 20px;
-}
-
-.about-section:hover, .sponsors-section:hover, .partners-section:hover, .the-team-section:hover, .faq-section:hover, .contact-section:hover {
-    background-color: #170772;
-    cursor: pointer;
-}
-
 input {
     padding: 0.5rem;
     border: none;
@@ -178,9 +128,7 @@ main>div:not(:first-child) {
     margin: 2vw;
     object-fit: contain;
 }
-#FAQ {
-    margin-bottom: 20px;
-}
+
 .faq {
     display: flex;
     justify-content: center;
