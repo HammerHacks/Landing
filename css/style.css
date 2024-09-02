@@ -312,6 +312,14 @@ main {
     margin-bottom: 5rem;
 }
 
+.contact svg {
+    color: #eebb3b;
+    width: 3rem;
+    height: 3rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
 .credits {
     font-size: .75rem;
     margin-top: 5rem;
