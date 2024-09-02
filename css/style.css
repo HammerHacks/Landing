@@ -220,9 +220,9 @@ main {
 .team {
     margin-left: auto;
     margin-right: auto;
-    max-width: 80rem;
+    max-width: 90rem;
     text-align: left;
-    margin-top: 6rem;
+    margin-top: 4rem;
 }
 
 .team > div {
@@ -333,11 +333,11 @@ main {
 }
 
 @media (max-width: 768px) {
-    .partners {
+    .partners-logos {
         flex-direction: column;
     }
 
-    .partners img {
+    .partners-logos img {
         max-width: 80vw; 
         margin-top: 3rem;
     }
@@ -365,7 +365,7 @@ main {
         width: 95%;
     }
 
-    .faq {
+    .faq-boxes {
         flex-direction: column;
     }
 
@@ -380,5 +380,9 @@ main {
 
     .sponsor-button {
         margin-top: 1.5rem;
+    }
+
+    .team h3 {
+        margin-left: 1rem;
     }
 }
