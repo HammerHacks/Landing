@@ -147,7 +147,6 @@ main {
 }
 
 .welcome-container h1 {
-    text-align: left;
     width: 100%;
     margin-bottom: 1rem;
 }
@@ -283,7 +282,6 @@ main {
 }
 
 .sponsor-text1 {
-    margin-bottom: 23px;
     font-size: 20px;
 }
 
@@ -296,20 +294,22 @@ main {
     color: white;
     font-family: "Poppins";
     font-weight: 500;
-    font-size: 15px;
-    padding: 0.5rem;
-    white-space: nowrap;
+    font-size: 1.3rem;
+    padding: 0.75rem;
     border: none;
     cursor: pointer;
-    border-radius: 15px;
-    margin-bottom: 50px;
-    line-height: 25px;
+    border-radius: 3rem;
     text-decoration: none;
+    margin-top: 1.3rem;
 }
 
 .donate {
     margin-top: 5rem;
     margin-bottom: 5rem;
+}
+
+.donate h1 {
+    margin-bottom: 1rem;
 }
 
 .contact svg {
