@@ -13,6 +13,20 @@
     <title>HammerHacks - Hamilton's First High School Hackathon</title>
 </head>
 <body>
+    <header>
+        <div class="logo-section">
+            <a href="#"><img src="assets/logo.webp" alt="HammerHacks Logo"></a>
+        </div>
+
+        <nav>
+            <a data-scrollto="welcome-container">About</a>
+            <a data-scrollto="partners">Partners</a>
+            <a data-scrollto="sponsor-holder">Sponsors</a>
+            <a data-scrollto="faq">FAQ</a>
+            <a data-scrollto="team">The Team</a>
+            <a data-scrollto="contact">Contact</a>
+        </nav>
+    </header>  
     <main>
         <div class="title-holder">
             <img src="assets/logo.webp" alt="HammerHacks logo">
@@ -27,85 +41,292 @@
         </div>
 
         <div class="welcome-container">
-            <h1>Welcome to HammerHacks where technology is the new steel!</h1>
+            <h1>About Us</h1>
             <p class="welcome-text">
-                Our mission is to inspire Hamilton's youth to engage in STEM-related activities. We aim to encourage more Hamiltonian students to participate and compete in STEM-focused events and opportunities, both within our community and beyond.<br><br>Our vision is to see future Hamiltonian programmers, engineers, scientists, and startup CEOs create groundbreaking technology.<br><br>Join us and 150 students for a 12-hour, in-person hackathon where you can create and showcase tech projects, learn from informative workshops, and connect with fellow tech enthusiasts and industry leaders. Participate to win exciting prizes and awards, and engage in fun activities.<br><br>Learn, collaborate, and innovate as we add glamour to the Hammer!
+                Welcome to HammerHacks where technology is the new steel! Join us for a 12-hour, in-person hackathon, featuring 150 students, where you can create and showcase tech projects, learn from informative workshops, and connect with fellow tech enthusiasts and industry leaders. Participate to win exciting prizes and awards, and engage in fun activities.<br><br>At HammerHacks, we're more than just a hackathon; we are a group of Hamiltonian students passionate about technology and innovation. Our mission is to inspire Hamilton's youth to engage and participate actively in STEM-related opportunities, both within our community and beyond. Our vision is to empower future Hamiltonian programmers, engineers, scientists, and startup CEOs create groundbreaking technology.<br><br>Learn, collaborate, and innovate as we add glamour to the Hammer!
             </p>
         </div>
+
         <div>
-            <h1>Partners</h1>
             <div class="partners">
-                <a href="https://hackclub.com/"><img src="https://assets.hackclub.com/flag-standalone.svg" alt="Hack Club"></a>
-                <a href="https://www.eng.mcmaster.ca/community"><img src="assets/maceng.png" alt="McMaster Engineering"></a>
+                <h1>Partners</h1>
+                <div class="partners-logos">
+                    <a href="https://hackclub.com/"><img src="https://assets.hackclub.com/flag-standalone.svg" alt="Hack Club"></a>
+                    <a href="https://www.eng.mcmaster.ca/community"><img src="assets/maceng.png" alt="McMaster Engineering"></a>
+                </div>
             </div>
 
-            <h1>FAQ</h1>
-            <div class="faq">
-                <div class="accordion-item">
-                    <button class="accordion-button">What is a hackathon?</button>
-                    <div class="accordion-content">
-                        <p>A hackathon is a social coding marathon where students come together and collaborate to code, design, and present amazing software and technology.</p>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-button">Do I need to know how to code?</button>
-                    <div class="accordion-content">
-                        <p>No! HammerHacks is open to all skill levels and welcomes everyone from those with zero experience to seasoned coders.</p>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-button">What should I bring?</button>
-                    <div class="accordion-content">
-                        <p>Please bring your laptop, charger, water bottle and school photo ID.</p>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-button">How can I get involved?</button>
-                    <div class="accordion-content">
-                        <p>You can get involved by signing up for our newsletter to stay up to date on all things HammerHacks!</p>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-button">How much does it cost?</button>
-                    <div class="accordion-content">
-                        <p>HammerHacks is completely free to attend!</p>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-button">Do I need a team?</button>
-                    <div class="accordion-content">
-                        <p>You can work alone, or with a team of up to 4 people! If you don't already have a team, don't worry, you can connect with other people in our slack or in-person!</p>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-button">Who can participate?</button>
-                    <div class="accordion-content">
-                        <p>Anyone over the age of 13 enrolled in a secondary school in the Hamilton-Wentworth region can participate!</p>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-button">Will food be provided?</button>
-                    <div class="accordion-content">
-                        <p>Lunch, dinner, and snacks will be provided!</p>
-                    </div>
-                </div>
-        </div>
+            <div class="sponsor-holder">
+                <h1>Want to sponsor a day of dreams?</h1>
+                <p class="sponsor-text2">Sponsors will make it possible for our student-run hackathon to happen.</p>
+                <p class="sponsor-text1">Help us give students the best experience!</p>
+                <a href="mailto:sponsor@hammerhacks.ca"><button class="sponsor-button">Become a Sponsor</button></a>
+            </div>
 
-        <div class="sponsor-holder">
-            <h1>Want to sponsor a day of dreams?</h1>
-            <p class="sponsor-text2">Sponsors will make it possible for our student-run hackathon to happen.</p>
-            <p class="sponsor-text1">Help us give students the best experience!</p>
-            <a href="mailto:sponsor@hammerhacks.ca"><button class="sponsor-button">Become a Sponsor</button></a>
+            <div class="faq">
+                <h1>FAQ</h1>
+                <div class="faq-boxes">
+                    <div class="accordion-item">
+                        <button class="accordion-button">What is a hackathon?</button>
+                        <div class="accordion-content">
+                            <p>A hackathon is a social coding marathon where students come together and collaborate to code, design, and present amazing software and technology.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-button">Who can participate?</button>
+                        <div class="accordion-content">
+                            <p>Anyone over 13 enrolled in a secondary school in the Hamilton-Wentworth region can participate!</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-button">Do I need to know how to code?</button>
+                        <div class="accordion-content">
+                            <p>No! HammerHacks is open to all skill levels and welcomes everyone from those with zero experience to seasoned coders.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-button">Do I need a team?</button>
+                        <div class="accordion-content">
+                            <p>You can work alone, or with a team of up to 4 people! If you don't already have a team, don't worry, you can connect with other people in our slack or in-person!</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-button">How many people can be on a team?</button>
+                        <div class="accordion-content">
+                            <p>Teams of up to 4 hackers are welcome! You can team up with participants from any school or experience level. Teams can be formed either before the event or during the hackathon—it's entirely up to you.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-button">How much does it cost?</button>
+                        <div class="accordion-content">
+                            <p>HammerHacks is completely free to attend!</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-button">Will food be provided?</button>
+                        <div class="accordion-content">
+                            <p>Lunch, dinner, and snacks will be provided!</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-button">What should I bring?</button>
+                        <div class="accordion-content">
+                            <p>Please bring your laptop, charger, water bottle and school photo ID.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-button">How can I get involved?</button>
+                        <div class="accordion-content">
+                            <p>You can get involved by signing up for our newsletter to stay up to date on all things HammerHacks!</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-button">What can I expect from this event?</button>
+                        <div class="accordion-content">
+                            <p>You will have the opportunity to learn from our coding workshops, work on exciting projects, meet fellow techies, engage in fun activities, and more.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-button">Do I need experience?</button>
+                        <div class="accordion-content">
+                            <p>Hammer Hacks is open to students of all skill levels. We'll offer mentors and workshops to support your project, making it a perfect opportunity to quickly learn new skills. Come with a passion for learning and enthusiasm to connect with amazing people.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-button">What kind of workshops are there?</button>
+                        <div class="accordion-content">
+                            <p>You will have the opportunity to learn from our coding workshops, work on exciting projects, meet fellow techies, engage in fun activities, and more.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div>
-            <h1>Have Questions?</h1>
+            <h1>Still have questions?</h1>
             <p>Reach out to us at <a href="mailto:info@hammerhacks.ca">info&commat;hammerhacks.ca</a></p>
+        </div>
+
+        <div class="team">
+            <div>
+                <h3>Co-Founders and Lead Organizers</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/william-cagas/">
+                            <img src="assets/team/willcagas.webp" alt="William Cagas" loading="lazy">
+                        </a>
+                        <div>
+                            <p class="name">William Cagas</p>
+                            <p class="school">St. Thomas More CSS</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/aneek-mukherjee-b1789025b/">
+                            <img src="assets/team/aneekm.png" alt="Aneek Mukherjee" loading="lazy">
+                        </a>
+                        <div>
+                            <p class="name">Aneek Mukherjee</p>
+                            <p class="school">Saltfleet District SS</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Development Team</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/wkang-/">
+                            <img src="assets/team/williamkang.jpg" alt="William Kang" loading="lazy">
+                        </a>
+                        <div>
+                            <p class="name">William Kang</p>
+                            <p class="position">Software Development Lead</p>
+                            <p class="school">Western University (Orchard Park SS Graduate)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/ayomide-abraham-ab03532b7/">
+                            <img src="assets/team/ayomide.jpg" alt="Ayomide Abraham" loading="lazy">
+                        </a>
+                        <div>
+                            <p class="name">Ayomide Abraham</p>
+                            <p class="position">Software Developer</p>
+                            <p class="school">Saltfleet District SS</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/ethantrann/">
+                            <img src="assets/team/ethant.jpg" alt="Ethan Tran" loading="lazy">
+                        </a>
+                        <div>
+                            <p class="name">Ethan Tran</p>
+                            <p class="position">Software Developer</p>
+                            <p class="school">Saltfleet District SS</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Logistics Team</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/jasminemontrichard/">
+                            <img src="assets/team/jasminem.webp" alt="Jasmine Montrichard" loading="lazy">
+                        </a>
+                        <div>
+                            <p class="name">Jasmine Montrichard</p>
+                            <p class="position">Logistics Lead</p>
+                            <p class="school">St. Jean de Brebeuf CSS</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="assets/team/maisyt.webp" alt="Maisy Thomas" loading="lazy">
+                        <div>
+                            <p class="name">Maisy Thomas</p>
+                            <p class="position">Logistics Coordinator</p>
+                            <p class="school">St. Mary CSS</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Operations Team</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/selena-nguyen-0b7287321/">
+                            <img src="assets/team/selenan.webp" alt="Selena Nguyen" loading="lazy">
+                        </a>
+                        <div>
+                            <p class="name">Selena Nguyen</p>
+                            <p class="position">Operations Lead</p>
+                            <p class="school">Orchard Park SS</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/chayanth-suthahar-59a12a302/">
+                            <img src="assets/team/chayanths.jpg" alt="Chayanth Suthahar" loading="lazy">
+                        </a>
+                        <div>
+                            <p class="name">Chayanth Suthahar</p>
+                            <p class="position">Operations Coordinator</p>
+                            <p class="school">Orchard Park SS</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/michael-xiao-41a0672b6/">
+                            <img src="assets/team/michaelx.png" alt="Michael Xiao" loading="lazy">
+                        </a>
+                        <div>
+                            <p class="name">Michael Xiao</p>
+                            <p class="position">Operations Coordinator</p>
+                            <p class="school">Hillfield Strathallan College</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Marketing Team</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/kayla-sodergard-22757927b/">
+                            <img src="assets/team/kaylas.webp" alt="Kayla Sodergard" loading="lazy">
+                        </a>
+                        <div>
+                            <p class="name">Kayla Sodergard</p>
+                            <p class="position">Marketing Lead</p>
+                            <p class="school">Bishop Ryan CSS</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/mikael-gomez-55022230a/">
+                            <img src="assets/team/mikaelg.webp" alt="Mikael Gomez" loading="lazy">
+                        </a>
+                        <div>
+                            <p class="name">Mikael Gomez</p>
+                            <p class="position">Marketing Coordinator</p>
+                            <p class="school">St. Thomas More CSS</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Finance Team</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/julia-vu-7153232b4/">
+                            <img src="assets/team/juliav.jpg" alt="Julia Vu" loading="lazy">
+                        </a>
+                        <div>
+                            <p class="name">Julia Vu</p>
+                            <p class="position">Finance Coordinator</p>
+                            <p class="school">Waterdown District SS</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="donate">
+            <h1>Support the hackathon!</h1>
+            <a href="https://hcb.hackclub.com/donations/start/hammerhacks" class="sponsor-button" target="_blank">Donate</a>
+        </div>
+
+        <div class="contact">
+            <h1>Contact Us</h1>
+            <p>For any inquiries, please email us at <a href="mailto:info@hammerhacks.ca">info&commat;hammerhacks.ca</a></p>
+            <p>Follow us on social media!</p>
+            <a href="https://www.instagram.com/hammerhacks_"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
+            <a href="https://www.linkedin.com/company/hammerhacks/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
         </div>
 
         <div class="credits">
             <p>Made with <span class="pink">❤</span> by the HammerHacks Development Team</p>
-            <p>Our <a href="https://github.com/hammerhacks/landing">website</a> and finances are open</p>
+            <p>Our <a href="https://github.com/hammerhacks/landing">website</a> and <a href="https://hcb.hackclub.com/hammerhacks">finances</a> are open</p>
         </div>
     </main>
 </body>

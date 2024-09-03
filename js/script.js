@@ -1,7 +1,14 @@
 const accordionItems = document.querySelectorAll('.accordion-item');
+const navItems = document.querySelectorAll('nav > a');
 
 for (const item of accordionItems) {
     item.addEventListener('click', () => item.classList.toggle('active'));
+}
+
+for (const item of navItems) {
+    item.addEventListener('click', () => {
+        document.querySelector(`.${item.dataset.scrollto}`)?.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'start' });
+    });
 }
 
 const targetDate = new Date("November 2, 2024").getTime();
