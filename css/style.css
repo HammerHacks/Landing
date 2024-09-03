@@ -385,4 +385,9 @@ main {
     .team h3 {
         margin-left: 1rem;
     }
+
+    /* TEMPORARY, REMOVE LATER */
+    header {
+        display: none;
+    }
 }
