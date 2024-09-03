@@ -30,8 +30,7 @@ header {
     justify-content: center;
     padding-top: 5px;
     padding-bottom: 5px;
-    /* background-color: rgba(31, 9, 156, 0.8); */
-    backdrop-filter: blur(12px);
+    background-color: rgba(31, 9, 156, 0.8);
 }
 
 .logo-section {
@@ -63,7 +62,7 @@ nav a {
 }
 
 nav a:hover {
-    /* background-color: rgb(23, 7, 114, .8); */
+    background-color: rgb(23, 7, 114, .8);
     cursor: pointer;
 }
 
