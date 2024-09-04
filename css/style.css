@@ -335,11 +335,12 @@ main {
 }
 
 @media (max-width: 768px) {
-    .partners-logos {
+    .partners-logos, .sponsor-logos {
         flex-direction: column;
     }
 
-    .partners-logos img {
+    .partners-logos img,
+    .sponsor-logos img {
         max-width: 80vw; 
         margin-top: 3rem;
     }
