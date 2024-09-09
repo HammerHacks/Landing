@@ -173,6 +173,16 @@ main {
     object-fit: contain;
 }
 
+.partners-logos a,
+.sponsor-logos a {
+    transition: transform 0.2s;
+}
+
+.partners-logos a:hover,
+.sponsor-logos a:hover {
+    transform: scale(1.1);
+}
+
 .faq-boxes {
     display: flex;
     justify-content: center;
@@ -230,6 +240,10 @@ main {
 .team > div {
     margin-top: 3rem;
     margin-bottom: 3rem;
+}
+
+.team h1 {
+    text-align: center;
 }
 
 .team h3 {
