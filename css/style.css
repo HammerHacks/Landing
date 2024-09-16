@@ -286,6 +286,11 @@ main {
     line-height: 1.25rem;
 }
 
+.team svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
 @media (min-width: 640px) {
     .team ul {
         grid-template-columns: repeat(2, minmax(0, 1fr));
