@@ -11,7 +11,7 @@ for (const item of navItems) {
     });
 }
 
-const targetDate = new Date("November 2, 2024").getTime();
+const targetDate = new Date("November 23, 2024").getTime();
 
 const countdown = document.querySelector('.countdown-timer');
 let x;
