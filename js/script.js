@@ -1,5 +1,5 @@
 const accordionItems = document.querySelectorAll('.accordion-item');
-const navItems = document.querySelectorAll('nav > a');
+const navItems = document.querySelectorAll('header a');
 
 for (const item of accordionItems) {
     item.addEventListener('click', () => item.classList.toggle('active'));
