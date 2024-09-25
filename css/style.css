@@ -164,12 +164,25 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 7rem;
+    margin-bottom: 2rem;
+    flex-direction: column;
 }
 
 .partners-logos img,
-.sponsor-logos img {
+.logos-l img {
     max-width: 40vw;
+    margin: 2vw;
+    object-fit: contain;
+}
+
+.logos-m img {
+    max-width: 25vw;
+    margin: 2vw;
+    object-fit: contain;
+}
+
+.logos-s img {
+    max-width: 15vw;
     margin: 2vw;
     object-fit: contain;
 }
@@ -355,14 +368,17 @@ main {
 }
 
 @media (max-width: 768px) {
-    .partners-logos, .sponsor-logos {
-        flex-direction: column;
+    .partners-logos img,
+    .logos-l img {
+        max-width: 80vw;
     }
 
-    .partners-logos img,
-    .sponsor-logos img {
-        max-width: 80vw; 
-        margin-top: 3rem;
+    .logos-m img {
+        max-width: 60vw;
+    }
+
+    .logos-s img {
+        max-width: 40vw;
     }
 
     .welcome-container {
