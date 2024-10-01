@@ -166,24 +166,24 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: 2rem;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .partners-logos img,
 .logos-l img {
-    max-width: 40vw;
+    width: 30vw;
     margin: 2vw;
     object-fit: contain;
 }
 
 .logos-m img {
-    max-width: 25vw;
+    width: 20vw;
     margin: 2vw;
     object-fit: contain;
 }
 
 .logos-s img {
-    max-width: 15vw;
+    width: 15vw;
     margin: 2vw;
     object-fit: contain;
 }
@@ -369,17 +369,21 @@ main {
 }
 
 @media (max-width: 768px) {
+    .sponsor-logos {
+        flex-direction: column;
+    }
+
     .partners-logos img,
     .logos-l img {
-        max-width: 80vw;
+        width: 80vw;
     }
 
     .logos-m img {
-        max-width: 60vw;
+        width: 70vw;
     }
 
     .logos-s img {
-        max-width: 40vw;
+        width: 45vw;
     }
 
     .welcome-container {
