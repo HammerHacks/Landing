@@ -52,6 +52,16 @@ header {
     right: 3vw;
     height: inherit;
     align-items: center;
+    background-color: #eebb3b;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+
+.signup-section:hover {
+    background-color: #987725;
 }
 
 header a {
@@ -341,8 +351,10 @@ main {
     color: white;
     font-family: "Poppins";
     font-weight: 500;
-    font-size: 3rem;
-    padding: 1.2rem;
+    font-size: 1.5rem;
+    padding: 0.75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
     border: none;
     cursor: pointer;
     border-radius: 3rem;
