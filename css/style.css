@@ -325,18 +325,26 @@ main {
     font-size: 20px;
 }
 
-.sponsor-button {
-    background-color: #1f099c;
+.sponsor-button,
+.btn {
     color: white;
     font-family: "Poppins";
     font-weight: 500;
     font-size: 1.3rem;
-    padding: 0.75rem;
+    padding: 0.5rem;
     border: none;
     cursor: pointer;
     border-radius: 3rem;
     text-decoration: none;
-    margin-top: 1.3rem;
+    margin-top: .5rem;
+}
+
+.btn {
+    background-color: #eebb3b;
+}
+
+.sponsor-button {
+    background-color: #1f099c;
 }
 
 .donate {
