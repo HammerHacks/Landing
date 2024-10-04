@@ -37,7 +37,7 @@ header {
 
 .logo-section {
     position: absolute;
-    left: 100px;
+    left: 3vw;
     height: inherit;
     align-items: center;
 }
@@ -47,14 +47,35 @@ header {
     padding-top: 5px;
 }
 
+.signup-section {
+    position: absolute;
+    right: 3vw;
+    height: inherit;
+    align-items: center;
+    background-color: #eebb3b;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+
+.signup-section:hover {
+    background-color: #987725;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+}
+
 nav {
     display: flex;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 nav a {
-    text-decoration: none;
-    color: white;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
@@ -325,18 +346,28 @@ main {
     font-size: 20px;
 }
 
-.sponsor-button {
-    background-color: #1f099c;
+.sponsor-button,
+.btn {
     color: white;
     font-family: "Poppins";
     font-weight: 500;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding: 0.75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
     border: none;
     cursor: pointer;
     border-radius: 3rem;
     text-decoration: none;
-    margin-top: 1.3rem;
+    margin-top: .5rem;
+}
+
+.btn {
+    background-color: #eebb3b;
+}
+
+.sponsor-button {
+    background-color: #1f099c;
 }
 
 .donate {
@@ -373,6 +404,14 @@ main {
         flex-direction: column;
     }
 
+    .btn {
+        margin-top: 0;
+        font-size: 2rem;
+        padding: .33rem;
+        padding-left: .75rem;
+        padding-right: .75rem;
+    }
+
     .partners-logos img,
     .logos-l img {
         width: 80vw;
@@ -392,6 +431,7 @@ main {
 
     .title-description, .date {
         font-size: 1.5rem;
+        margin: .2rem;
     }
 
     .title-holder p,
@@ -407,6 +447,7 @@ main {
 
     .countdown-timer {
         width: 95%;
+        margin-bottom: 0.5rem;
     }
 
     .faq-boxes {
