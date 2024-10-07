@@ -36,18 +36,6 @@ header {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.075); 
 }
 
-.logo-section {
-    position: absolute;
-    left: 3vw;
-    height: inherit;
-    align-items: center;
-}
-
-.logo-section img {
-    height: 45px;
-    padding-top: 5px;
-}
-
 .signup-section {
     position: absolute;
     right: 3vw;
