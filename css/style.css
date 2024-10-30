@@ -208,6 +208,10 @@ main {
     transform: scale(1.1);
 }
 
+.directions {
+    margin-bottom: 3rem;
+}
+
 .faq-boxes {
     display: flex;
     justify-content: center;
