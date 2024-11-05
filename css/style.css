@@ -106,9 +106,34 @@ main {
 }
 
 iframe {
-    border: 0;
-    width: 50%;
-    height: 60vh;
+    border: gold 3px solid;
+    width: 40%;
+    height: 55vh;
+}
+
+.schedule {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+}
+
+.schedule td {
+    font-size: 1.2rem;
+    padding: 8px 5px;
+}
+
+.scheduleTime {
+    width: 10%;
+}
+
+.schedule .activity {
+    width: 18%;
+}
+
+.schedule .description {
+    text-align: left;
+    width: 40%;
 }
 
 .title-holder {
@@ -338,7 +363,7 @@ iframe {
 
 .sponsor-holder {
     margin-top: 6rem;
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
 }
 
 .sponsor-text1 {
@@ -413,6 +438,14 @@ iframe {
 }
 
 @media (max-width: 768px) {
+    .schedule {
+        width: 100%;
+    }
+
+    .scheduleTime {
+        width: 30%;
+    }
+
     iframe {
         width: 97.5%;
         height: 65vh;
