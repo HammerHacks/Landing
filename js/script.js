@@ -11,6 +11,38 @@ for (const item of navItems) {
     });
 }
 
+const carousel = document.querySelector('.image-carousel')
+for (let i = 41; i > 0; i--) {
+  const imgDiv = document.createElement('div');
+  imgDiv.classList.add('carousel-slide');
+
+  const img = document.createElement('img');
+  img.src = `assets/carousel/${i}.jpg`;
+  img.alt = `Image ${i}`;
+  imgDiv.appendChild(img);
+
+  carousel.prepend(imgDiv);
+}
+
+let slideIndex = 1;
+
+const slides = document.querySelectorAll(".carousel-slide");
+
+const plusSlides = n => {
+  slides[slideIndex-1].style = "";
+  showSlides(slideIndex += n);
+};
+
+const showSlides = n => {
+  if (n > slides.length) slideIndex = 1;
+  if (n < 1) slideIndex = slides.length;
+  slides[slideIndex-1].style.display = "block";
+};
+showSlides(slideIndex);
+
+setInterval(() => plusSlides(1), 5000);
+
+/*
 const targetDate = new Date("November 23, 2024").getTime();
 
 const countdown = document.querySelector('.countdown-timer');
@@ -35,3 +67,4 @@ const updateCountdown = () => {
 
 updateCountdown();
 x = setInterval(updateCountdown, 1000);
+*/
