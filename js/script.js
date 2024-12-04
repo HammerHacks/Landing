@@ -11,14 +11,17 @@ for (const item of navItems) {
     });
 }
 
-const carousel = document.querySelector('.image-carousel')
-for (let i = 41; i > 0; i--) {
+const NUM_IMAGES = 40;
+const carousel = document.querySelector('.image-carousel');
+for (let i = NUM_IMAGES; i > 0; i--) {
   const imgDiv = document.createElement('div');
   imgDiv.classList.add('carousel-slide');
+  imgDiv.style.display = i === 1 ? "block" : "";
 
   const img = document.createElement('img');
   img.src = `assets/carousel/${i}.jpg`;
   img.alt = `Image ${i}`;
+  img.loading = "lazy";
   imgDiv.appendChild(img);
 
   carousel.prepend(imgDiv);
@@ -27,10 +30,13 @@ for (let i = 41; i > 0; i--) {
 let slideIndex = 1;
 
 const slides = document.querySelectorAll(".carousel-slide");
+let interval;
 
 const plusSlides = n => {
-  slides[slideIndex-1].style = "";
+  slides[slideIndex-1].style.display = "";
   showSlides(slideIndex += n);
+  clearInterval(interval);
+  interval = setInterval(() => plusSlides(1), 5000);
 };
 
 const showSlides = n => {
@@ -38,9 +44,9 @@ const showSlides = n => {
   if (n < 1) slideIndex = slides.length;
   slides[slideIndex-1].style.display = "block";
 };
-showSlides(slideIndex);
 
-setInterval(() => plusSlides(1), 5000);
+showSlides(slideIndex);
+interval = setInterval(() => plusSlides(1), 5000);
 
 /*
 const targetDate = new Date("November 23, 2024").getTime();
